@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="logo-box">
-      <img src="../assets/ifood-logo.png" alt="logo" />
+      <img src="@/assets/images/ifood-logo.png" alt="logo" />
     </div>
     <p>busque o que você quer</p>
     <p>entregar em</p>
