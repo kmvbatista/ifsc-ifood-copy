@@ -9,14 +9,14 @@
 
 <script>
 export default {
-  name: 'FoodOption',
-  props: ['photoUrl', 'name'],
+  name: "FoodOption",
+  props: ["photoUrl", "name"]
 };
 </script>
 
-<style>
+<style scoped>
 .main {
-  padding: 0 3px 0 3px;
+  cursor: pointer;
 }
 .photo {
   border-radius: 50%;
@@ -27,8 +27,8 @@ export default {
 }
 
 .photo {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
 </style>
