@@ -4,24 +4,29 @@
       <img class="logo" src="@/assets/images/ifood-logo.png" alt="logo" />
     </div>
     <div class="search">
-      <img src="icons/search.svg" class="icon" alt="localização" >
-    <input type="text" placeholder="Busque por item ou loja" class="search-input">
+      <div class="search-icon-box">
+        <img src="icons/search.svg" class="icon" alt="localização" />
+      </div>
+      <input type="text" placeholder="Busque por item ou loja" class="search-input" />
     </div>
     <div class="location">
-      <p>ENTREGAR EM</p>
-    <img src="icons/location.svg" class="icon" alt="localização" >
+      <p class="location-text">ENTREGAR EM</p>
+      <div class="location-adress">
+        <img src="icons/location.svg" class="icon" alt="localização" />
+        <p>Rua Orense, 584</p>
+      </div>
     </div>
     <div class="options-box">
       <div class="header-option">
-        <img src="icons/commerce.svg" class="icon" alt="promoções" >
+        <img src="icons/commerce.svg" class="icon" alt="promoções" />
         <p class="header-option-text">Promoçoes</p>
       </div>
       <div class="header-option">
-        <img src="icons/door.svg" class="icon" alt="entrar" >
+        <img src="icons/door.svg" class="icon" alt="entrar" />
         <p class="header-option-text">Entrar</p>
       </div>
       <div class="header-option">
-        <img src="icons/bag.svg" class="icon" alt="sacola" >
+        <img src="icons/bag.svg" class="icon" alt="sacola" />
         <p class="header-option-text">Sacola</p>
       </div>
     </div>
@@ -30,7 +35,7 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: "Header"
 };
 </script>
 
@@ -71,5 +76,35 @@ export default {
   max-width: 100%;
   max-height: 100%;
   top: 50%;
+}
+.search {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+.search-icon-box {
+  padding: 8px;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  width: 350px;
+  height: 45px;
+  line-height: 1.25em;
+  outline: none;
+}
+.search-input::placeholder {
+  color: rgb(158, 158, 158);
+}
+.location-text {
+  color: rgb(158, 158, 158);
+  font-size: 13px;
+  font-family: "OpenSans-Regular";
+}
+.location-adress {
+  display: flex;
+  font-family: "OpenSans-Regular";
 }
 </style>
