@@ -1,7 +1,30 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   padding: 0 10% 0 10%;
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: local('OpenSans-Light'),
+    url(../../../public/fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: local('OpenSans-Bold'),
+    url(../../../public/fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+html,
+body {
+  font-family: 'OpenSans-Light', sans-serif;
+}
+
+strong {
+  font-family: 'OpenSans-Bold', sans-serif;
 }
