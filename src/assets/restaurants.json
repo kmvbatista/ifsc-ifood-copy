@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Pizzaria Giancarlo",
+    "description": "Pizzaria Giancarlo. Aqui você encontra a melhor pizza da região, preparada em forno a lenha. Experimente!",
+    "category": "Pizza",
+    "distance": "0.99",
+    "deliveryPrice": "10",
+    "deliveryTime": "50-60min",
+    "rating": "4.7",
+    "ratingNumber": "300",
+    "photo": ""
+  }
+]
