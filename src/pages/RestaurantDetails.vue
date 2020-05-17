@@ -2,9 +2,9 @@
   <div>
     <div class="column details-container container">
       <div class="row">
-        <img src="@/../public/icons/star.svg" alt="avaliação" class="rating-icon" />
+        <img src="@/assets/icons/star.svg" alt="avaliação" class="rating-icon" />
         <p class="rating">{{restaurant.rating}}</p>
-        <p>(80 avalições)</p>
+        <p class="rating-quantity">({{restaurant.ratingQuantity}} avalições)</p>
       </div>
       <h3>{{restaurant.name}}</h3>
       <p class="top-information">{{restaurant.description}}</p>
@@ -17,31 +17,44 @@
         <div v-else class="free-delivery">ENTREGA GRÁTIS</div>
       </div>
       <aside class="empty-bag column">
-        <img
-          class="empty-bag-image"
-          src="@/../public/icons/empty-bag.svg"
-          alt="sua sacola está vazia"
-        />
+        <img class="empty-bag-image" src="@/assets/icons/empty-bag.svg" alt="sua sacola está vazia" />
         <strong>Sua sacola está vazia</strong>
         <p>Adicione items</p>
       </aside>
       <h4>Pratos</h4>
+      <div class="plates-grid">
+        <plate-card v-for="plate in plates" :key="plate.id" :plate="plate"></plate-card>
+      </div>
       <div class="plates"></div>
     </div>
   </div>
 </template>
 <script>
+import platesJson from "@/assets/plates.json";
+import PlateCard from "../components/PlateCard";
 export default {
+  components: {
+    PlateCard
+  },
   data() {
     return {
       restaurant: this.$route.params.restaurantData
     };
+  },
+  computed: {
+    plates() {
+      const foundPlaces = this.restaurant.plates.map(plateId =>
+        platesJson.find(x => x.id === plateId)
+      );
+      return foundPlaces;
+    }
   }
 };
 </script>
 <style scoped>
 .free-delivery {
   border-radius: 2px;
+  border: 1px solid var(--color-gray);
   font-weight: bold;
   font-size: 0.9em;
 }
@@ -90,5 +103,11 @@ h4 {
   font-size: 1.6em;
   font-weight: 600;
   color: var(--color-gray-dark);
+}
+.plates-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 80%;
 }
 </style>
