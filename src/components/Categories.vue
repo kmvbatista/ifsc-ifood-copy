@@ -2,7 +2,11 @@
   <div>
     <strong>Categorias</strong>
     <div class="options-list">
-      <div v-for="categorie in categories" :key="categorie.name">
+      <div
+        @click="filterRestaurants(categorie.name)"
+        v-for="categorie in categories"
+        :key="categorie.name"
+      >
         <category :name="categorie.name" :photoUrl="categorie.photoUrl"></category>
       </div>
     </div>
@@ -20,6 +24,11 @@ export default {
     return {
       categories: categoriesJson
     };
+  },
+  methods: {
+    filterRestaurants(choseCategory) {
+      this.$emit("chosecategory", choseCategory);
+    }
   }
 };
 </script>

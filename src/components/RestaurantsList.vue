@@ -11,15 +11,12 @@
   </div>
 </template>
 <script>
-import restaurantsJson from "@/assets/restaurants.json";
 import RestaurantCard from "../components/RestaurantCard";
 export default {
   components: {
     RestaurantCard
   },
-  data: () => ({
-    restaurants: restaurantsJson
-  })
+  props: ["restaurants"]
 };
 </script>
 <style scoped>
