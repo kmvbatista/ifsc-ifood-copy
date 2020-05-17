@@ -1,5 +1,5 @@
 <template>
-  <div class="card row">
+  <div class="card row" @click="handleCardClick">
     <div class="restaurant-photo" :style="`background-image: url(${restaurant.photo})`"></div>
     <div class="spacer"></div>
     <div class="card-infos column">
@@ -20,7 +20,18 @@
 
 <script>
 export default {
-  props: ["restaurant"]
+  props: ["restaurant"],
+  methods: {
+    handleCardClick() {
+      this.$router.push({
+        name: "details",
+        params: {
+          restaurant: this.restaurant.name,
+          restaurantData: this.restaurant
+        }
+      });
+    }
+  }
 };
 </script>
 
@@ -40,6 +51,7 @@ export default {
   padding: calc(var(--card-height) * 0.15);
   border: 1px solid #dcdcdc;
   border-radius: 4px;
+  cursor: pointer;
 }
 p {
   margin-right: 5px;

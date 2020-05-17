@@ -1,12 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container column home">
     <img class="banner" src="images/ifood-banner.png" alt="banner-ifood" />
-    <div class="box">
-      <categories></categories>
-    </div>
-    <div class="box">
-      <restaurants-list></restaurants-list>
-    </div>
+    <categories></categories>
+    <restaurants-list></restaurants-list>
   </div>
 </template>
 
@@ -22,11 +18,11 @@ export default {
 };
 </script>
 <style scoped>
-.box {
-  margin: 50px 0;
-}
 .banner {
   width: 100%;
-  height: 245px;
+  height: 200px;
+}
+.home > * {
+  margin-bottom: 50px;
 }
 </style>
