@@ -25,6 +25,8 @@
         <strong>Sua sacola está vazia</strong>
         <p>Adicione items</p>
       </aside>
+      <h4>Pratos</h4>
+      <div class="plates"></div>
     </div>
   </div>
 </template>
@@ -39,13 +41,12 @@ export default {
 </script>
 <style scoped>
 .free-delivery {
-  border: 1px solid #ddd;
   border-radius: 2px;
   font-weight: bold;
   font-size: 0.9em;
 }
 .rating {
-  color: #e7a74e;
+  color: var(--color-yellow);
 }
 .rating-icon {
   height: 13px;
@@ -65,14 +66,14 @@ h3 {
 
 .top-information {
   font-size: 1.1em;
-  color: rgb(110, 110, 110);
+  color: var(--color-gray-2);
 }
 .empty-bag {
   margin-top: 0;
   height: 100vh;
   position: fixed;
   right: 0;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid var(--color-gray-lighter);
   box-shadow: 3px 8px 13px 1px #0000005c;
   align-items: center;
   justify-content: center;
@@ -84,5 +85,10 @@ h3 {
   height: 200px;
   width: 200px;
   margin: 0 50px;
+}
+h4 {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: var(--color-gray-dark);
 }
 </style>

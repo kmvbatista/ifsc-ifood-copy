@@ -20,7 +20,7 @@ export default {
 <style scoped>
 .banner {
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 .home > * {
   margin-bottom: 50px;

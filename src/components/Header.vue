@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .box-with-border {
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid var(--color-gray-light);
 }
 .header {
   display: flex;
@@ -82,9 +82,9 @@ export default {
   top: 50%;
 }
 .search {
-  background-color: #f7f7f7;
+  background-color: var(--color-gray-lighter);
   border-radius: 4px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid var(--color-gray-light);
   display: flex;
   align-items: center;
 }
@@ -100,10 +100,10 @@ export default {
   outline: none;
 }
 .search-input::placeholder {
-  color: rgb(158, 158, 158);
+  color: var(--color-gray);
 }
 .location-text {
-  color: rgb(158, 158, 158);
+  color: var(--color-gray);
   font-size: 13px;
   font-family: "OpenSans-Regular";
 }
