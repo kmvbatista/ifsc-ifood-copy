@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza calabresa acebolada",
+    "description": "Massa tradicional, coberta com nosso especial molho de tomate. Finalizado com o recheio de qualidade.",
+    "price": "35,80",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/a626c511-3098-4ccc-a18d-79c203d5a5fe/201909251756_3G5I_p.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pizza grande bauru",
+    "description": "Massa tradicional, bauru (mussarela quentinha, presunto e tomate)",
+    "price": "35,80",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/a626c511-3098-4ccc-a18d-79c203d5a5fe/201907171032_p8Oi_p.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Beirute catarina + fritas",
+    "description": "Lombo ,Catupiry,maionese ,tomate e cebola + batata + mussarela",
+    "price": "35,80",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/a626c511-3098-4ccc-a18d-79c203d5a5fe/202005151123_VKr8_c.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Esfiha atum",
+    "description": "Esfiha de Atum aberta de 15 cm",
+    "price": "10,50",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/a626c511-3098-4ccc-a18d-79c203d5a5fe/202004241938_dfTc_.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Hambúrguer acebolado",
+    "description": "Hamburguer com 120 gramas de carne bovina, queijo, tomate, rodelas de cebola feito na chapa(deixando aquele gostinho do bife acebolado) e molho especial!",
+    "price": "10,50",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/f81e8cb8-6f4a-47ac-93cb-86138e54e101/202002112015_qx3V_p.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Super X-tudo",
+    "description": "Pão de hamburguer grande, 180 gramas de hamburguer de carne nobre, queijo, cheddar,maionese, bacon, ovo, calabresa, tomate, alface, cebola e molho especial. É um super lanche! Come 2 pessoas",
+    "price": "10,50",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/f81e8cb8-6f4a-47ac-93cb-86138e54e101/201907172320_6Gkr_c.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Cesta de chocolates sortidos cacau show p2",
+    "description": "Esta linda cesta de chocolates sortidos cacau show contém 10 itens",
+    "price": "10,50",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/c73f8071-e511-462a-adc4-895719c85960/202005161558_ANih_.jpeg"
+  }
+]
