@@ -14,12 +14,13 @@ export default {};
   background-size: cover;
   width: calc(var(--card-height) * 0.8);
   height: calc(var(--card-height) * 0.8);
+  border-radius: 4px;
 }
 .card {
   width: 100%;
   max-width: 500px;
   height: var(--card-height);
-  padding: calc(var(--card-height) * 0.15);
+  padding: calc(var(--card-height) * 0.1);
   cursor: pointer;
   border: 1px solid #dcdcdc;
   border-radius: 4px;

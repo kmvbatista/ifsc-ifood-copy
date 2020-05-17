@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .photo {
-  margin-left: 10px;
+  margin-left: auto;
 }
 .plate-name {
   margin-bottom: 10px;
