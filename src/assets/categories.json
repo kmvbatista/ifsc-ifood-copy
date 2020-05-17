@@ -1,14 +1,39 @@
 [
-  { "name": "Japonesa", "photoUrl": "images/japonesa.jpeg" },
-  { "name": "Italiana", "photoUrl": "images/italiana.jpeg" },
-  { "name": "Lanches", "photoUrl": "images/lanches.jpeg" },
-  { "name": "Árabe", "photoUrl": "images/arabe.jpeg" },
-  { "name": "Chinesa", "photoUrl": "images/chinesa.jpeg" },
-  { "name": "Bebidas", "photoUrl": "images/bebidas.jpeg" },
-  { "name": "Pizza", "photoUrl": "images/pizza.jpeg" },
-  { "name": "Carnes", "photoUrl": "images/carnes.jpeg" },
+  {
+    "name": "Pizza",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-pizza.jpg"
+  },
+  {
+    "name": "Lanches",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-lanches-v2.jpg"
+  },
+  {
+    "name": "Árabe",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-arabe.jpg"
+  },
+  {
+    "name": "Chinesa",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-chinesa.jpg"
+  },
+  {
+    "name": "Japonesa",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-japonesa.jpg"
+  },
+
+  {
+    "name": "Açaí",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-acai.jpg"
+  },
+  {
+    "name": "Doces",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-doces-e-bolos.jpg"
+  },
+  {
+    "name": "Brasileira",
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-brasileira-v2.jpg"
+  },
   {
     "name": "Vegetariana",
-    "photoUrl": "images/vegetariana.jpeg"
+    "photoUrl": "https://static-images.ifood.com.br/image/upload/f_auto,t_low/discoveries/19C1-vegetariana.jpg"
   }
 ]
