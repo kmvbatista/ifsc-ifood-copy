@@ -1,15 +1,13 @@
 <template>
   <div class="main">
-    <div class="food-photo">
-      <img class="photo" :src="photoUrl" :alt="name" />
-    </div>
+    <div class="photo" :style="`background-image: url(${photoUrl})`"></div>
     <p class="category-text">{{ name }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "FoodOption",
+  name: "Category",
   props: ["photoUrl", "name"]
 };
 </script>
@@ -18,10 +16,6 @@ export default {
 .main {
   cursor: pointer;
 }
-.photo {
-  border-radius: 50%;
-}
-
 .category-text {
   text-align: center;
 }
@@ -29,6 +23,7 @@ export default {
 .photo {
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  background-size: cover;
+  border-radius: 50%;
 }
 </style>

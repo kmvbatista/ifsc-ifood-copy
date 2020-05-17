@@ -1,14 +1,14 @@
 [
-  { "name": "Japonesa", "photoUrl": "images/japonesa.webp" },
-  { "name": "Italiana", "photoUrl": "images/italiana.webp" },
-  { "name": "Lanches", "photoUrl": "images/lanches.webp" },
+  { "name": "Japonesa", "photoUrl": "images/japonesa.jpeg" },
+  { "name": "Italiana", "photoUrl": "images/italiana.jpeg" },
+  { "name": "Lanches", "photoUrl": "images/lanches.jpeg" },
   { "name": "Árabe", "photoUrl": "images/arabe.jpeg" },
-  { "name": "Chinesa", "photoUrl": "images/chinesa.webp" },
-  { "name": "Bebidas", "photoUrl": "images/bebidas.webp" },
-  { "name": "Pizza", "photoUrl": "images/pizza.webp" },
-  { "name": "Carnes", "photoUrl": "images/carnes.webp" },
+  { "name": "Chinesa", "photoUrl": "images/chinesa.jpeg" },
+  { "name": "Bebidas", "photoUrl": "images/bebidas.jpeg" },
+  { "name": "Pizza", "photoUrl": "images/pizza.jpeg" },
+  { "name": "Carnes", "photoUrl": "images/carnes.jpeg" },
   {
     "name": "Vegetariana",
-    "photoUrl": "images/vegetariana.webp"
+    "photoUrl": "images/vegetariana.jpeg"
   }
 ]

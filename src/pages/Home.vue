@@ -1,6 +1,6 @@
 <template>
   <div class="container column home">
-    <img class="banner" src="images/ifood-banner.png" alt="banner-ifood" />
+    <img class="banner" src="@/assets/img/ifood-banner.png" alt="banner-ifood" />
     <categories></categories>
     <restaurants-list></restaurants-list>
   </div>

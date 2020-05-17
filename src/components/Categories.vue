@@ -3,26 +3,23 @@
     <strong>Categorias</strong>
     <div class="options-list">
       <div v-for="categorie in categories" :key="categorie.name">
-        <food-option :name="categorie.name" :photoUrl="categorie.photoUrl"></food-option>
+        <category :name="categorie.name" :photoUrl="categorie.photoUrl"></category>
       </div>
     </div>
   </div>
 </template>
 <script>
-import FoodOption from "./FoodOption";
+import Category from "./Category";
 import categoriesJson from "@/assets/categories.json";
 export default {
   name: "Categories",
   components: {
-    "food-option": FoodOption
+    category: Category
   },
   data() {
     return {
       categories: categoriesJson
     };
-  },
-  created() {
-    console.log(categoriesJson);
   }
 };
 </script>
