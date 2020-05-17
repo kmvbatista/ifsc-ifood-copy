@@ -1,28 +1,32 @@
 <template>
   <div class="container">
     <img class="banner" src="images/ifood-banner.png" alt="banner-ifood" />
-    <div class="categories-box">
+    <div class="box">
       <categories></categories>
+    </div>
+    <div class="box">
+      <restaurants-list></restaurants-list>
     </div>
   </div>
 </template>
 
 <script>
 import Categories from "../components/Categories";
+import RestaurantsList from "../components/RestaurantsList";
 export default {
   name: "Home ",
   components: {
-    categories: Categories
+    Categories,
+    RestaurantsList
   }
 };
 </script>
 <style scoped>
-.categories-box {
-  padding: 20px 0;
+.box {
+  margin: 50px 0;
 }
 .banner {
   width: 100%;
   height: 245px;
-  margin: 20px 0;
 }
 </style>
