@@ -47,5 +47,61 @@
     "description": "Esta linda cesta de chocolates sortidos cacau show contém 10 itens",
     "price": "10,50",
     "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/c73f8071-e511-462a-adc4-895719c85960/202005161558_ANih_.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Cesta de chocolates sortidos cacau show p2",
+    "description": "Esta linda cesta de chocolates sortidos cacau show contém 10 itens",
+    "price": "10,50",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/pratos/c73f8071-e511-462a-adc4-895719c85960/202005161558_ANih_.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Combinado salmão 3 pessoas 46 unidades",
+    "description": "16 sashimi, 6 sushis, 6 uramaki filadéfia, 4 uramaki salmão, 3 jow, 3 sushi skin, 8 hossomakis.",
+    "price": "100,50",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/9fcebd67-6537-4097-9ea9-762ac20ccebc/202005051757_dKEB_c.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Combinado salmão 2 pessoas 34 unidades",
+    "description": "12 sashimi, 8 sushis, 4 uramaki de salmão, jow, 2 sushi skin, 6 hossomakis, 2 hot rolls simples.",
+    "price": "88,90",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/9fcebd67-6537-4097-9ea9-762ac20ccebc/202005051757_dKEB_c.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Grão de bico burger",
+    "description": "Hambúrguer de grão de bico de 120g, molho especial de alho, alface crespa, molho de tomate fresco no pão vegano",
+    "price": "20,90",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/0cf469bd-6ba3-4e48-ba83-dd46650c9e50/202003312011_Kzyw_.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Shimeji burger",
+    "description": "Hambúrguer de shimeji com abobora de 120g, alface crespa, molho de tomate fresco e cebola caramelizada no pão vegano.",
+    "price": "20,90",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/0cf469bd-6ba3-4e48-ba83-dd46650c9e50/202004101814_65f6_2.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Do mato com Frango",
+    "description": "Peito de frango em cubos, alface, rúcula, ervilha, milho, cenoura e tomate.",
+    "price": "20,90",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/54a9ef34-3c82-49e6-b251-0fc91ab36e5a/201806130953_45123284.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Tropeiro",
+    "description": "Mexido mineiro de linguiça suína, arroz, feijão, ovo, cebola, bacon, farofa e couve. Padrão mexido mineiro",
+    "price": "16,90",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/54a9ef34-3c82-49e6-b251-0fc91ab36e5a/201806131002_45122889.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Copo 180ml",
+    "description": "1- escolha creme ou açai 2- acompanhamentos e frutas 3- creme ou açai. Obs : a quantidade de acompanhamentos ou frutas não altera o valor final",
+    "price": "10,90",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_medium/pratos/b16030ce-ce78-4616-aeb6-b2ae5362ece8/201906031422_Af3b_5.jpg"
   }
 ]

@@ -1,5 +1,5 @@
 <template>
-  <div class="box-with-border">
+  <div class="header-container">
     <div class="container header">
       <router-link to="/">
         <div class="logo-box">
@@ -44,8 +44,11 @@ export default {
 </script>
 
 <style scoped>
-.box-with-border {
+.header-container {
   border-bottom: 1px solid var(--color-gray-light);
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 .header {
   display: flex;
