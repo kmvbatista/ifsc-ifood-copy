@@ -35,5 +35,6 @@ export default {};
 .card-infos {
   height: 100%;
   justify-content: space-between;
+  max-width: calc(100% - 10px - var(--card-height) * 0.8);
 }
 </style>
