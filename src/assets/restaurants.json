@@ -4,10 +4,60 @@
     "description": "Pizzaria Giancarlo. Aqui você encontra a melhor pizza da região, preparada em forno a lenha. Experimente!",
     "category": "Pizza",
     "distance": "0.99",
-    "deliveryPrice": "10",
-    "deliveryTime": "50-60min",
+    "deliveryPrice": "10,00",
+    "deliveryTime": "50-60 min",
     "rating": "4.7",
     "ratingNumber": "300",
-    "photo": ""
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_thumbnail/logosgde/201910072004_7f94f624-f1dd-4e90-a3b8-d0fcb69c8622.jpg"
+  },
+  {
+    "name": "Marmitas Joana",
+    "description": "Marmitas Joana. Aqui você encontra a melhor marmita da região, preparada em forno a lenha. Experimente!",
+    "category": "Marmitas",
+    "distance": "0.90",
+    "deliveryTime": "40-60 min",
+    "rating": "3.0",
+    "ratingNumber": "300",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_thumbnail/logosgde/201910071459_0c0ddd2e-8c60-4397-b448-214eaad115f3.jpg"
+  },
+  {
+    "name": "Açaí",
+    "description": "Açaí concept, é isso aí brother",
+    "category": "Lanches",
+    "distance": "8.90",
+    "deliveryTime": "60-120 min",
+    "rating": "4.1",
+    "ratingNumber": "300",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_thumbnail/logosgde/3735a77e-042a-4f99-954a-ab64333fdf87/202002261622_rg0g_.jpeg"
+  },
+  {
+    "name": "Habibs",
+    "description": "Habibs. Venha comer bibsfiga!",
+    "category": "Lanches",
+    "distance": "8.90",
+    "deliveryTime": "60-120 min",
+    "rating": "4.1",
+    "ratingNumber": "300",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_thumbnail/logosgde/201801241022__HABIB_ADEMA.jpg"
+  },
+  {
+    "name": "Mineiro delivery",
+    "description": "Mineiro delivery. Venha comer bibsfiga!",
+    "category": "Brasileira",
+    "distance": "8.90",
+    "deliveryTime": "60-120 min",
+    "rating": "4.1",
+    "ratingNumber": "300",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_thumbnail/logosgde/201808191851_a672655a-4c11-4d87-8a6e-1fd45ca8144d.jpg"
+  },
+  {
+    "name": "Cacau Show",
+    "description": "Cacau show. Venha comer bibsfiga!",
+    "category": "Doces",
+    "distance": "8.90",
+    "deliveryTime": "60-120 min",
+    "rating": "4.1",
+    "ratingNumber": "300",
+    "photo": "https://static-images.ifood.com.br/image/upload/f_auto,t_thumbnail/logosgde/2427608d-2240-4c37-990c-0de1fec3fc81_CACAU_AANCH.png"
   }
 ]
