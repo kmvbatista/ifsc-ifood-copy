@@ -1,33 +1,35 @@
 <template>
   <div class="box-with-border">
     <div class="container header">
-      <div class="logo-box">
-        <img class="logo" src="icons/ifood-logo.svg" alt="logo" />
-      </div>
+      <router-link to="/">
+        <div class="logo-box">
+          <img class="logo" src="@/assets/icons/ifood-logo.svg" alt="logo" />
+        </div>
+      </router-link>
       <div class="search">
         <div class="search-icon-box">
-          <img src="icons/search.svg" class="icon" alt="localização" />
+          <img src="@/assets/icons/search.svg" class="icon" alt="localização" />
         </div>
         <input type="text" placeholder="Busque por item ou loja" class="search-input" />
       </div>
       <div class="location">
         <p class="location-text">ENTREGAR EM</p>
         <div class="location-adress">
-          <img src="icons/location.svg" class="icon" alt="localização" />
+          <img src="@/assets/icons/location.svg" class="icon" alt="localização" />
           <p>R. Orense, 584</p>
         </div>
       </div>
       <div class="options-box">
         <div class="header-option">
-          <img src="icons/commerce.svg" class="icon" alt="promoções" />
+          <img src="@/assets/icons/commerce.svg" class="icon" alt="promoções" />
           <p class="header-option-text">Promoções</p>
         </div>
         <div class="header-option">
-          <img src="icons/door.svg" class="icon" alt="entrar" />
+          <img src="@/assets/icons/door.svg" class="icon" alt="entrar" />
           <p class="header-option-text">Entrar</p>
         </div>
         <div class="header-option">
-          <img src="icons/bag.svg" class="icon" alt="sacola" />
+          <img src="@/assets/icons/bag.svg" class="icon" alt="sacola" />
           <p class="header-option-text">Sacola</p>
         </div>
       </div>

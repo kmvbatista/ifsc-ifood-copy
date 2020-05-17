@@ -6,7 +6,7 @@
       <div class="card-infos column">
         <strong>{{restaurant.name}}</strong>
         <div class="row">
-          <img src="icons/star.svg" alt="avaliação" class="rating-icon" />
+          <img src="@/assets/icons/star.svg" alt="avaliação" class="rating-icon" />
           <p class="rating">{{restaurant.rating}}</p>
           <p>• {{restaurant.category}} • {{restaurant.distance}}km</p>
         </div>
@@ -42,37 +42,6 @@ export default {
 </script>
 
 <style scoped>
-/* * {
-  --card-height: 120px;
-}
-.restaurant-photo {
-  background-size: cover;
-  width: calc(var(--card-height) * 0.8);
-  height: calc(var(--card-height) * 0.8);
-}
-.card {
-  width: 100%;
-  max-width: 500px;
-  height: var(--card-height);
-  padding: calc(var(--card-height) * 0.15);
-
-  cursor: pointer;
-}
-p {
-  margin-right: 5px;
-  font-size: 0.95em;
-}
-.spacer {
-  width: 1px;
-  height: 100%;
-  margin: 0 20px;
-  background-color: var(--color-gray-lighter);
-}
-
-.card-infos {
-  height: 100%;
-  justify-content: space-between;
-} */
 .rating {
   color: var(--color-yellow);
 }
